@@ -2,3 +2,8 @@ language: node_js
 node_js: node
 services: mongodb
 env: MONGODB_URI=mongodb://localhost:27017/node-server
+deploy:
+  provider: heroku
+  app: alchemy-notes
+  api_key:
+    secure: hvFqFgeub3x4RPy+y/DLpMT7MAVPVPHad0yZl1nSlhBFumWMm0wfCBTcx/9ONiTJeDCqmxYaSIxG/bC/ULSq/nCzTBmEixCY0ywiFmAz6NPY/R1SPFwYeaUIWb9f2cgOVOCnGUCWOYU2E2s3tDl/WI8BBs6lMzlBe3Mqb+coyvkvnUUJkJyiGQfHcuh633Iv9TVK7+OF60BWoeeLcw5wnSAkT8cZsRU7oi6wnv9eQsMwusdrjFEOWhi8QrHdf2IbdfWzoLJgEq+3aTX5386V11LF0ZpnX9UJRvpBitr/eo1KOWSMrvZSJoqb0IUIebe81Fq6kAeth8QNQ8olhgZ6HL2kflEaPwHflHy2S1o8+oEBMCHRhv8+hFvXv2e5hdtUhyGQUHOQ+RLV8telr+4foVS5LGR8BJRz4XTu6ogkpcPzVkFWe/fpuQS1n1E1q1xltkmzA5goVL168aa+T5kQYy+QzuVa7/X/TEOy1pODMhL/ikpftU4k+4n0P7mtbpFow0dox/s8OG0RGHAUnzS3AFdywowvrnw9hMkUwZUvhsdAF9L60Cob08tSCGiNPGzXDgKil+bsR1pzE82o/RgTfjbi7aNUM9d6KANiVIZrMazQRWU2DeT49L+9NBFJTXq1oGtzIkWlmFyNC+3Z0IAJRpXYpmgPEQ17crrhdUoLRvI=
